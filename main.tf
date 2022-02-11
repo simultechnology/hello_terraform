@@ -3,7 +3,7 @@ resource "aws_instance" "hello" {
   instance_type = "t2.micro"
 
   tags = {
-    Name = "hello"
+    Name = "my_hello"
   }
 }
 
