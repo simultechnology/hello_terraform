@@ -11,6 +11,6 @@ terraform {
 }
 
 provider "aws" {
-  profile = "default"
+  profile = "new-admin"
   region  = "ap-northeast-1"
 }
